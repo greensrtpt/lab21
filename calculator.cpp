@@ -94,7 +94,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	wc.lpfnWndProc = WndProc;
     wc.hInstance = hInstance;
     wc.lpszClassName = "My Calculator";
-    wc.hbrBackground = CreateSolidBrush(RGB(0, 255, 0)); // สีเขียวสะท้อนแสง 
+    wc.hbrBackground = CreateSolidBrush(RGB(254,1, 154)); // สี
 	wc.hCursor	 = LoadCursor(NULL, IDC_ARROW);
 	wc.hIcon	 = LoadIcon(NULL, IDI_APPLICATION); /* Load a standard icon */
 	wc.hIconSm	 = LoadIcon(NULL, IDI_APPLICATION); /* use the name "A" to use the project icon */
